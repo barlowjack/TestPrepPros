@@ -35,14 +35,14 @@
           
     <form class="nestedgrid2" action="https://formspree.io/f/mqknlpvo" method="POST">
       <div class="div1">
-          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-          Email*<br><input type="email" size="30" required name="email"><br>
-          Phone*<br><input type="tel" size="30" name="phone"><br>
-          Personal Website<br><input type="url" size="30" name="website"><br>
+          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Full Name"><br>
+          Email*<br><input type="email" size="30" required name="email" aria-label="Email Address"><br>
+          Phone*<br><input type="tel" size="30" name="phone" aria-label="Cell Phone Number"><br>
+          Personal Website<br><input type="url" size="30" name="website" aria-label="Personal Website Address"><br>
       </div>
           
       <div class="div2">
-          Current High School<br><input type="text" size="30" list="highschool"><br>
+          Current High School<br><input type="text" size="30" list="highschool" aria-label="Current High School"><br>
           <datalist id="highschool">
             <option value="Beaverbrook"></option>
             <option value="Birchwood"></option>
@@ -51,8 +51,8 @@
             <option value="Hainesville"></option>
             <option value="Other"></option>
           </datalist>
-          Expected date of entry<br><input type="date" name="date"><br>
-          Number of days/week desired<br><input type="number" min="1" max="5" step="1" value="2"><br>
+          Expected date of entry<br><input type="date" name="date" aria-label="Expected date of entry"><br>
+          Number of days/week desired<br><input type="number" min="1" max="5" step="1" value="2" aria-label="Number of days a week desired"><br>
           <input type= "submit" value="Help Me Boost My Scores!" class="button">
       </div>
     </form>
